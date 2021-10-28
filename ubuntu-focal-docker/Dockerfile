@@ -30,6 +30,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     dumb-init \
     fakeroot \
     git \
+    elfutils-devel \
+    libebl-dev \
+    libdw-dev \
+    libebl-devel \
     systemtap
 
 RUN mkdir -p /usr/src
