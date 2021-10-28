@@ -31,6 +31,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     fakeroot \
     git \
     libdw-dev \
+    python3-distutils \
     systemtap
 
 RUN mkdir -p /usr/src
