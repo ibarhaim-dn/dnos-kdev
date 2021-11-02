@@ -50,7 +50,7 @@ RUN cd /usr/src/systemtap && \
     make install
 
 # Install kpatch from git
-ARG KPATCH_GIT_VERSION=v0.9.3
+ARG KPATCH_GIT_VERSION=v0.9.5
 RUN git clone https://github.com/dynup/kpatch -b $KPATCH_GIT_VERSION /usr/src/kpatch
 RUN cd /usr/src/kpatch && \
     make && \
