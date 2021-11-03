@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 
 ARG DEBIAN_FRONTEND=noninteractive
+ENV LOCALVERSION=""
 
 # Based on https://wiki.ubuntu.com/Debug%20Symbol%20Packages
 RUN apt-get update
