@@ -30,6 +30,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     kpatch \
     kpatch-build \
+    python-distutils \
     systemtap
 
 RUN mkdir -p /usr/src
